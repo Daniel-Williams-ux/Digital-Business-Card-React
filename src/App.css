@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #23252C;
+}
+
+div {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  
+  font-size: 12px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 44px;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  heiht: 317px;
+}
+
+.section-layout {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.section-layout > h2 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+line-height: 30px;
+text-align: center;
+justify-content: center;
+}
+
+.sub-section {
+ width: 300px;
+  background-color: #1A1B21;
+}
+
+.title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+color: #F3BF99;
+margin-top: -20px;
+padding-top: 0.4em;
+}
+
+.sub-contact {
+  background-color: #161619;
+  width: 300px;
+}
+
+.sub-contact > .social {
+  padding: 10px;
+}
+
+.site {
+  display: block;
+  margin-top: -13px;
+  color: #F5F5F5;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.icons {
+  align-items: center;
+  padding: 4px 4px 9px 9px;
+  //gap: 8px;
+  width: 145px;
+  margin-top: 15px;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color:  #F5F5F5;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 535px;
+  margin: 25px;
+}
+
+p {
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.34px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin: 25px;
+}
+
+
+@media (max-width: 800px) {
+  #card img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  #card img {
+    width: 100%;
+  }
+}
